@@ -24,7 +24,7 @@ export default function CaseStudy1() {
                                     </div>
                                     <h5>
                                         <Link href="/study-details" className="white-clr d-flex align-items-center justify-content-between gap-3">
-                                            A Simple Social Media Marketing Checklist
+                                        St. Bernadette Institute of Sacred Art 
                                             <span className="rot60">
                                                 <i className="fas fa-arrow-up theme-clr" />
                                             </span>
@@ -49,7 +49,7 @@ export default function CaseStudy1() {
                                     </div>
                                     <h5>
                                         <Link href="/study-details" className="white-clr d-flex align-items-center justify-content-between gap-3">
-                                            Transforming Challenges into Opportunities
+                                        Mawules African Jewelry
                                             <span className="rot60">
                                                 <i className="fas fa-arrow-up theme-clr" />
                                             </span>

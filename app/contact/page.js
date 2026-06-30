@@ -17,14 +17,14 @@ export default function Contact() {
                                         <path d="M46.4242 16.4252L37.5742 7.5752" stroke="#E3FF04" strokeWidth={4} strokeLinecap="round" strokeLinejoin="round" />
                                     </svg>
                                     <h5 className="white mt-xxl-7 mt-6 mb-xxl-7 mb-6">
-                                        Phone &amp; Fax
+                                        Phone
                                     </h5>
                                     <span className="msub d-block mb-2">
-                                        Mobile : +197 -90 - 56 - 780
+                                        Mobile : +1 888 946 5682
                                     </span>
-                                    <span className="msub">
+                                    {/* <span className="msub">
                                         Fax : +44-208-1234567
-                                    </span>
+                                    </span> */}
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-6 col-sm-6" data-aos="zoom-in-right" data-aos-duration={1600}>
@@ -36,11 +36,11 @@ export default function Contact() {
                                         Mail Address
                                     </h5>
                                     <span className="msub d-block mb-2">
-                                        Info.company@gmail.com
+                                     support@thedesignlog.com
                                     </span>
-                                    <span className="msub">
+                                    {/* <span className="msub">
                                         Info.company@yahoo.com
-                                    </span>
+                                    </span> */}
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-6 col-sm-6" data-aos="zoom-in-right" data-aos-duration={1800}>
@@ -52,11 +52,12 @@ export default function Contact() {
                                         Our Location
                                     </h5>
                                     <span className="msub d-block mb-2">
-                                        Mobile : 85 Ketch Harbour
+                                        21900 Burbank Blvd Ste 300-A,
+                                        Woodland Hills, CA, 91367-7418, USA
                                     </span>
-                                    <span className="msub">
+                                    {/* <span className="msub">
                                         RoadBensalem, PA 19020
-                                    </span>
+                                    </span> */}
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-6 col-sm-6" data-aos="zoom-in-right" data-aos-duration={2000}>
@@ -68,18 +69,19 @@ export default function Contact() {
                                         Office Hour
                                     </h5>
                                     <span className="msub d-block mb-2">
-                                        Sun - Thu 09 am - 06pm
+                                        Monday - Friday
+                                        09:00 am - 05:00 pm
                                     </span>
-                                    <span className="msub">
+                                    {/* <span className="msub">
                                         Fri - Sat 4 pm - 10pm
-                                    </span>
+                                    </span> */}
                                 </div>
                             </div>
                         </div>
                         <div className="row g-xxl-7 g-4">
                             <div className="col-lg-6" data-aos="zoom-in" data-aos-duration={2000}>
                                 <div className="contact-map">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52816169.558200695!2d-161.49265223136007!3d36.102185713814805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2sbd!4v1711689726724!5m2!1sen!2sbd" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                                    <iframe src="https://maps.google.com/maps?q=21900+Burbank+Blvd+Ste+300-A,+Woodland+Hills,+CA+91367-7418,+USA&hl=en&z=16&output=embed" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
                                 </div>
                             </div>
                             <div className="col-lg-6" data-aos="zoom-in" data-aos-duration={2000}>

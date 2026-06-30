@@ -3434,6 +3434,7 @@ input.main-search-input::placeholder {
     font-size: 20px;
     font-weight: 600;
     color: var(--white);
+    cursor: pointer;
 }
 
 .accordion-single .header-area button {

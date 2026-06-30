@@ -1,4 +1,4 @@
-
+import Link from "next/link"
 
 export default function Product1() {
     return (
@@ -19,15 +19,12 @@ export default function Product1() {
                                         WE PROUD THAT
                                     </div>
                                     <h2 className="stitle mb-xxl-8 mb-xl-7 mb-xl-5 mb-4" data-aos="fade-up" data-aos-duration={1600}>
-                                        Discover <span className="fw-400 theme-clr">Our Awards</span>
+                                    Built for Businesses <span className="fw-400 theme-clr">That Think Bigger</span>
                                     </h2>
                                     <p className="white-clr mb-xxl-9 mb-xl-7 mb-xl-6 mb-6" data-aos="fade-up" data-aos-duration={1900}>
-                                        Bring to the table win-win survival strategies to ensure proactive domination. At
-                                        the end of the day, going forward, a
-                                        new normal that has evolved from generation on the runway heading towards a
-                                        streamlined
+                                    Our design and development agency USA helps businesses build a stronger presence through strategy-led design, development, and marketing. Each brand identity, website, and campaign here is created to attract the right audience, and drive growth.
                                     </p>
-                                    <div className="discover-dating" data-aos="fade-up" data-aos-duration={2200}>
+                                    {/* <div className="discover-dating" data-aos="fade-up" data-aos-duration={2200}>
                                         <div className="allyear d-flex align-items-center justify-content-between mb-xxl-4 mb-xl-3">
                                             <h5 className="fw-medium theme-clr">
                                                 2019
@@ -65,7 +62,13 @@ export default function Product1() {
                                                 </span>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
+                                    <Link href="/contact" className="radius-btn d-inline-flex align-items-center radius100 py-xxl-2 py-2 px-xxl-5 px-5 theme-border theme-clr gap-xxl-4 gap-3 mb-xxl-8 mb-xl-6 mb-5 style-2 position-relative z-2">
+                                        Talk to Us!
+                                        <span className="rot60 d-inline-block">
+                                            <i className="fas fa-arrow-up theme-clr" />
+                                        </span>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

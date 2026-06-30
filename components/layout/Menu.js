@@ -41,7 +41,7 @@ export default function Menu() {
             <ul className="custom-nav d-lg-flex d-grid gap-xxl-10 gap-xl-8 gap-lg-5 gap-md-2 gap-2 pt-lg-0 pt-5">
                 <li className="menu-item position-relative">
                     <button className="position-relative ps-5  white-clr fw_500 cus-z1" onClick={() => handleAccordion(1)}>
-                        Home
+                    <Link href="/" className="fw_500 white-clr"> Home </Link>
                     </button>
                     {/* <ul className="sub-menu px-lg-4 py-xxl-3 py-2" style={{ display: `${isAccordion == 1 ? "block" : "none"}` }}>
                         <li className="menu-link py-1">

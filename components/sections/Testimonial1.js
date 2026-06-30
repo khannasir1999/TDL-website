@@ -1,5 +1,5 @@
-
 'use client'
+import { testimonials } from '@/data/testimonials'
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
 
@@ -34,64 +34,34 @@ export default function Testimonial1() {
                         <div className="col-lg-11">
                             <div className="swiper testimonial-version01 position-relative">
                                 <Swiper {...swiperOptions} className="swiper-wrapper">
-                                    <SwiperSlide>
-                                        <div className="testimonial-zero-oneitem d-md-flex d-grid align-items-center justify-content-md-start justify-content-center text-md-start text-center gap-xxl-7 gap-xl-5 gap-4">
-                                            <div className="thumb">
-                                                <img src="/assets/img/testimonial/t-version01.png" alt="img" />
-                                            </div>
-                                            <div className="vector d-md-block d-none">
-                                                <img src="/assets/img/testimonial/vector01.png" alt="img" />
-                                            </div>
-                                            <div className="content ps-md-10">
-                                                <div className="icon mb-xxl-6 mb-xl-5 mb-4">
-                                                    <i className="fas fa-quote-right theme-clr" />
+                                    {testimonials.map((testimonial) => (
+                                        <SwiperSlide key={testimonial.id}>
+                                            <div className="testimonial-zero-oneitem d-md-flex d-grid align-items-center justify-content-md-start justify-content-center text-md-start text-center gap-xxl-7 gap-xl-5 gap-4">
+                                                <div className="thumb">
+                                                    <img src={testimonial.image} alt={testimonial.name} />
                                                 </div>
-                                                <p className="white-clr mb-xxl-7 mb-xl-6 mb-lg-5 mb-4">
-                                                    Posuere luctus orci. Donec vitae mattis quam, vitae tempor arcu. Aenean
-                                                    non odio porttitor, convallis erat sit amet,
-                                                    facilisis velit. Nulla ornare convallis malesuada. Phasellus molestie,
-                                                    ipsum ac fringilla.
-                                                </p>
-                                                <div className="desig">
-                                                    <h6 className="white-clr mb-2">
-                                                        Daniel Smith
-                                                    </h6>
-                                                    <span className="theme-clr">
-                                                        Senior engineer
-                                                    </span>
+                                                <div className="vector d-md-block d-none">
+                                                    <img src="/assets/img/testimonial/vector01.png" alt="" />
                                                 </div>
-                                            </div>
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <div className="testimonial-zero-oneitem d-md-flex d-grid align-items-center justify-content-md-start justify-content-center text-md-start text-center gap-xxl-7 gap-xl-5 gap-4">
-                                            <div className="thumb">
-                                                <img src="/assets/img/testimonial/t-version01.png" alt="img" />
-                                            </div>
-                                            <div className="vector d-md-block d-none">
-                                                <img src="/assets/img/testimonial/vector01.png" alt="img" />
-                                            </div>
-                                            <div className="content ps-md-10">
-                                                <div className="icon mb-xxl-6 mb-xl-5 mb-4">
-                                                    <i className="fas fa-quote-right theme-clr" />
-                                                </div>
-                                                <p className="white-clr mb-xxl-7 mb-xl-6 mb-lg-5 mb-4">
-                                                    Posuere luctus orci. Donec vitae mattis quam, vitae tempor arcu. Aenean
-                                                    non odio porttitor, convallis erat sit amet,
-                                                    facilisis velit. Nulla ornare convallis malesuada. Phasellus molestie,
-                                                    ipsum ac fringilla.
-                                                </p>
-                                                <div className="desig">
-                                                    <h6 className="white-clr mb-2">
-                                                        Daniel Smith
-                                                    </h6>
-                                                    <span className="theme-clr">
-                                                        Senior engineer
-                                                    </span>
+                                                <div className="content ps-md-10">
+                                                    <div className="icon mb-xxl-6 mb-xl-5 mb-4">
+                                                        <i className="fas fa-quote-right theme-clr" />
+                                                    </div>
+                                                    <p className="white-clr mb-xxl-7 mb-xl-6 mb-lg-5 mb-4">
+                                                        {testimonial.quote}
+                                                    </p>
+                                                    <div className="desig">
+                                                        <h6 className="white-clr mb-2">
+                                                            {testimonial.name}
+                                                        </h6>
+                                                        <span className="theme-clr">
+                                                            {testimonial.title}
+                                                        </span>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </SwiperSlide>
+                                        </SwiperSlide>
+                                    ))}
                                 </Swiper>
                             </div>
                         </div>
