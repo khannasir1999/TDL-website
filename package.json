@@ -13,7 +13,7 @@
         "@splinetool/react-spline": "^3.1.1",
         "@splinetool/runtime": "^1.12.98",
         "aos": "^2.3.4",
-        "next": "14.1.4",
+        "next": "14.2.18",
         "react": "18.2.0",
         "react-countup": "^6.5.3",
         "react-dom": "18.2.0",

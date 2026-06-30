@@ -7,7 +7,7 @@ import './RobotBanner.css';
 import defaultDownIcon from '@/public/assets/img/robotbanner/down.png';
 
 export default function RobotBanner({
-  backgroundImage = '/images/montek-banner-bg.jpg',
+  backgroundImage,
   title = <>Creative <br /> Space</>,
   textLeft = <>Design and Development Agency  <br /> for Digital-First Brands</>,
   textRight = <>Enhancing potential and <br /> driving prosperity.</>,
@@ -28,7 +28,7 @@ export default function RobotBanner({
     <section
       ref={bannerRef}
       className="montek-banner"
-      style={{ backgroundImage: `url(${backgroundImage})` }}
+      style={backgroundImage ? { backgroundImage: `url(${backgroundImage})` } : undefined}
     >
       <div className="montek-banner__robot">
         <SplineRobotLazy />
