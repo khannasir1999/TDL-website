@@ -1,5 +1,5 @@
 import Layout from "@/components/layout/Layout"
-import Blog1 from "@/components/sections/Blog1"
+// import Blog1 from "@/components/sections/Blog1"
 import CaseStudy1 from "@/components/sections/CaseStudy1"
 // import Hero1 from "@/components/sections/Hero1"
 import Faq1 from "@/components/sections/Faq1"

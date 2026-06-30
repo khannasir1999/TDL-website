@@ -42,7 +42,7 @@ export default function Sidebar({ isSidebar, handleSidebar }) {
                                 <span className="address d-block">
                                     Call now
                                 </span>
-                                <Link href="/jasacript:void(0)" className="textp">
+                                <Link href="#" className="textp">
                                     +996 1425 7471 0.2
                                 </Link>
                             </div>
