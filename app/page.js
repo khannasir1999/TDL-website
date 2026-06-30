@@ -22,17 +22,17 @@ export default function Home() {
                     <div className="line-shape cus-z-1 first w-100 h-100 d-flex flex-wrap" />
                     {/* <Hero1 /> */}
                     <RobotBanner />
-                    {/* <Product1 />
+                    <Product1 />
                     <Service1 />
                     <TextSLider1 />
                     <CaseStudy1 />
-                    <Watch1 /> */}
+                    <Watch1 />
                     {/* <Team1 /> */}
-                    {/* <TextSLider2 />
-                    <Testimonial1 /> */}
+                    <TextSLider2 />
+                    <Testimonial1 />
                     {/* <Blog1 /> */}
                     <Faq1 />
-                    {/* <TextSLider3 /> */}
+                    <TextSLider3 />
                 </div>
             </Layout>
         </>
