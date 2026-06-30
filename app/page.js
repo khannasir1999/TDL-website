@@ -21,8 +21,8 @@ export default function Home() {
                 <div className="position-relative overflow-hidden">
                     <div className="line-shape cus-z-1 first w-100 h-100 d-flex flex-wrap" />
                     {/* <Hero1 /> */}
-                    {/* <RobotBanner />
-                    <Product1 />
+                    <RobotBanner />
+                    {/* <Product1 />
                     <Service1 />
                     <TextSLider1 />
                     <CaseStudy1 />
